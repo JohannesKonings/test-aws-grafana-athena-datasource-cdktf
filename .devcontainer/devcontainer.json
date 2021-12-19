@@ -33,6 +33,6 @@
 	"remoteUser": "node",
 	"features": {
 		"terraform": "latest",
-		"git": "os-provided"
+		"git": "latest"
 	}
 }
