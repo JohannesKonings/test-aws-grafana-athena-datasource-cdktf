@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Athena" uuid="8ee43f88-2c63-4687-9213-c4b009e72d19">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:awsathena://AwsRegion=us-east-1</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="Profile" value="wsl2" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
